@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+
+    <head>
+       <!-- <meta charset="utf-8">
+        <meta name="viewport" content= "width=device-width, initial-scale=1">-->
+        <title>Manika Gupta</title>
+        <link rel="icon" href="manika3.jpeg">
+        <link rel="stylesheet" href="Style.css">
+        
+
+    </head>
+    <nav>
+        <a href="index.html">HOME|</a>
+        <a href="personal information.html">PERSONAL INFORMATION|</a>
+        <a href="Sidelines.html">SIDELINES</a>
+    </nav>
+
+    <style>
+        body {
+          background-image: url("15.jpeg");
+          background-size: cover;
+        }
+      </style>
+    
+    <body>
+    <div class="manika">
+        <h1>
+        <i>MANIKA GUPTA</i>
+    </h1>
+    </div>
+    <div class="me">
+        <div class="about">
+    <h2>About Me</h2>
+    </div>
+     <div class="pic">
+     <img src = manika2.jpeg alt="This is me" width="300" height="500">
+     </div>
+     <div class="data">
+
+     
+    <p id="currentDate"></p>
+
+        <script>
+        const currentDate = new Date();
+        const formattedDate = currentDate.toDateString();
+        document.getElementById("currentDate").innerHTML = formattedDate;
+        </script>
+      First year University Student of Bachelor of Applied Computer Science at Dalhousie University.
+    Passionate on learning,hands on experience to imply the skills learnt through educational knowledge and to improvise the skills into expertise goals. 
+    Young and matured looking to deploy skills and personal attributes that will support the transition from education to full-time employment.
+
+    I completed my schooling from The Srijan School, New Delhi under the CBSE Board.
+    I passed my class 10 exam in the year 2020 scoring overall 89.9%. 
+    I chose the Science stream with Mathematics, Physics, Chemistry, Computer Science and English as my subjects for High School and passed meritoriously. 
+    As a student, I have maintained good overall academic scores throughout my schooling with balanced co-curricular and extra-curricular involvements.
+    I have successfully completed the Class 12 CBSE Board exam in the year 2022 scoring an overall 91%. Alongside academics, I was naturally inclined towards computing and I have actively pursued this interest. 
+    I participated in Robotics Program in my middle school and represented my school at various inter school Robotics competitions. I have also taken part in various sports activities specially Lawn Tennis . 
+    I have been playing the sport of lawn tennis since the age of 6 and has been the part of my school team throughout  . I have participated in many inter-school tournaments and have brought laurels to my school . 
+    These pursuits have consistently helped me to be impactful as well as allowed ample personal growth opportunities for me.
+
+</p>
+
+<button id="change-btn">Change Background Image</button>
+
+ <script>
+    var button = document.getElementById("change-btn");
+
+button.addEventListener("click", function() {
+  var imageUrl = "bg1.jpg";
+  alert("The Backgroud has changed")
+  
+  document.body.style.backgroundImage = "url('" + imageUrl + "')";
+});
+  </script>
+</div>
+    </div>
+    </body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,120 @@
+*{
+    margin: 1.5;
+    padding:1.5;
+}
+
+nav {
+    padding-top: 0.9%;
+    color: black;
+    font-size:190%
+   
+}
+
+h1 {
+    color: rgb(60, 60, 141);
+    font-size:200%
+    padding-top: 1%;
+    
+}
+
+.pic {
+    float:right;
+    border: 1px solid white;
+    padding: 60px 60px 600px 60px;
+    margin: 25;
+    box-shadow: 0 0 5px black;
+    
+}
+h2 {
+    color: rgb(64, 64, 173);
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+h3 {
+    color: rgb(67, 67, 170);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+}
+
+
+h5 {
+    color: black;
+    font-size: 100%;
+    padding-top: 0.9%;
+    
+}
+
+p {
+    padding-left:1%;
+    color: black;
+    font-size:120%
+}
+
+
+
+ol  > li {
+        list-style-type: none;
+        margin: 1;
+        padding: 1;
+      }
+      
+      
+      li {
+        padding: 2px;
+        border: 2px solid #ccc;
+        margin-bottom: 2px;
+        background-color: whitesmoke;
+       border-radius: 10px;
+      }
+
+      table {
+        border: 2px solid black;
+    }
+
+div ~ img{
+        border: 2px solid white;
+        padding: 10px;
+        margin: 1;
+        box-shadow: 0 0 5px black;
+    }
+
+#photo {
+        display: flex;
+        padding: 10px;
+        margin: 25;
+    }
+
+h5::after {
+        color: black;
+        font-size: 100%;
+        padding-top: 0.9%;
+        content: "\a\a";
+        white-space: pre;
+         }
+    
+a:link {
+        color: rgb(189, 100, 189);
+      }
+    
+.me{
+        display: grid;
+        grid-template-rows: 5%;
+        grid-template-columns: 70% 30%;
+      }
+
+img[alt = "Tennis Tournamnet Certificate"]{
+        margin: 1.5em;
+        padding:1.5em;
+      }
+
+
+h1 + p{
+    padding-top: 0.7em;
+    margin: 0.7em;
+    
+}
+
+
+
+      
